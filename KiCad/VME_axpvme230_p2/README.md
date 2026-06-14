@@ -1,6 +1,6 @@
 # VMEbus-axpvme230_p2
 
-AXPvme 230 moduleを動作させるためには専用のAXPvme Breakout module (54–22621–01)が必要です。  
+AXPvme 230 moduleを動作させるためには専用のAXPvme Breakout module (54-22621-01)が必要です。  
 ドキュメントを参考にして簡易的なAXPvme Breakout boardを製作します。
 
 ## Breakout boardの設計方針
