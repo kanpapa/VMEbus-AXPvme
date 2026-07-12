@@ -18,9 +18,9 @@ KiCADで設計からガーバーデータの作成を行いました。
 
 ## Dual Slot Breakout boardのイメージ図
 
-![基板表面](./VME_axpvme230_p2_dual_front.png)
+![基板表面](./VME_axpvme230_p2_dual_front.jpg)
 
-![基板裏面](./VME_axpvme230_p2_dual_back.png)
+![基板裏面](./VME_axpvme230_p2_dual_back.jpg)
 
 ## Disclaimer
 The contents of this repository are the result of personal research and are provided "as is" without any warranty.
