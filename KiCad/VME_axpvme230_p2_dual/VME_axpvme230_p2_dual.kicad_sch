@@ -6,8 +6,8 @@
 	(paper "A3")
 	(title_block
 		(title "AXPvme Double-Slot Breakout Module")
-		(date "2026-07-11")
-		(rev "0.1")
+		(date "2026-07-28")
+		(rev "0.2")
 		(company "kanpapa.com")
 		(comment 1 "for DEC AXPVME230")
 	)
@@ -7742,6 +7742,12 @@
 		(uuid "66c8bf2b-a039-467d-8d06-0e430516f219")
 	)
 	(junction
+		(at 64.77 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0082528d-95d5-4182-886e-7d71575f1cd1")
+	)
+	(junction
 		(at 125.73 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7910,6 +7916,12 @@
 		(uuid "516d75c2-d8ea-43bf-8c3d-e6117e759432")
 	)
 	(junction
+		(at 125.73 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5519bcad-9082-40fd-aea5-04010abd4968")
+	)
+	(junction
 		(at 207.01 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7956,12 +7968,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64f3ea6f-b746-449c-8d8e-8db40f93ce19")
-	)
-	(junction
-		(at 64.77 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67ac2305-51b6-4430-b318-22deb3399aef")
 	)
 	(junction
 		(at 64.77 93.98)
@@ -8052,12 +8058,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9650c8c8-f258-40d2-ab60-5a5a393f83ba")
-	)
-	(junction
-		(at 125.73 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ef7c28e-6f5e-4de0-8d46-365e2c4e9541")
 	)
 	(junction
 		(at 125.73 48.26)
@@ -9660,6 +9660,16 @@
 			(type default)
 		)
 		(uuid "239f5613-9df3-4d49-8bf9-8e655abacfe2")
+	)
+	(wire
+		(pts
+			(xy 64.77 21.59) (xy 64.77 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "253661c6-b1b5-442f-9450-88381d4bd4ff")
 	)
 	(wire
 		(pts
@@ -11860,6 +11870,16 @@
 			(type default)
 		)
 		(uuid "f6362aef-2cea-45c2-8f1b-a5f6c40276f1")
+	)
+	(wire
+		(pts
+			(xy 125.73 21.59) (xy 125.73 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f733fcab-edb6-4e0c-b874-2b1ee81d066c")
 	)
 	(wire
 		(pts
@@ -42499,7 +42519,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10K"
+		(property "Value" "2K"
 			(at 55.88 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42560,7 +42580,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 64.77 25.4 0)
+		(at 64.77 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42568,10 +42588,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d2962df8-eacd-4bcf-890d-d60342c3f317")
 		(property "Reference" "#FLG04"
-			(at 64.77 23.495 0)
+			(at 64.77 19.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42582,7 +42601,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 64.77 20.32 0)
+			(at 64.77 17.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42592,7 +42611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 25.4 0)
+			(at 64.77 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42603,7 +42622,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 25.4 0)
+			(at 64.77 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42614,7 +42633,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 64.77 25.4 0)
+			(at 64.77 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -42981,7 +43000,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 125.73 25.4 0)
+		(at 125.73 21.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -42989,10 +43008,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fad90f46-a310-423e-8ef1-3be4671e637f")
 		(property "Reference" "#FLG05"
-			(at 125.73 23.495 0)
+			(at 125.73 19.685 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43003,7 +43021,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 125.73 20.32 0)
+			(at 125.73 17.526 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -43013,7 +43031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 25.4 0)
+			(at 125.73 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43024,7 +43042,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 25.4 0)
+			(at 125.73 21.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43035,7 +43053,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 25.4 0)
+			(at 125.73 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
